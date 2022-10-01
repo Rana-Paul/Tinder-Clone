@@ -7,8 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 
 function Header({ backButton }) {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <>

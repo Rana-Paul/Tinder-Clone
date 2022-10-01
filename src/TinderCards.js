@@ -7,7 +7,7 @@ function TinderCards() {
   const [people, setPeople] = useState([{}]);
 
   useEffect(() => {
-    setPeople(Data)    
+    setPeople(Data);
   }, []);
   return (
     <div className="tindercards">
